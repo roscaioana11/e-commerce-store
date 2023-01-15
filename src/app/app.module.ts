@@ -17,6 +17,7 @@ import {MatTableModule} from "@angular/material/table";
 import {MatBadgeModule} from "@angular/material/badge";
 import {MatSnackBarModule} from "@angular/material/snack-bar";
 import { HeaderComponent } from './components/header/header.component';
+import {MatTooltipModule} from "@angular/material/tooltip";
 
 @NgModule({
   declarations: [
@@ -27,18 +28,19 @@ import { HeaderComponent } from './components/header/header.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-      MatSidenavModule,
-      MatGridListModule,
-      MatMenuModule,
-      MatButtonModule,
-      MatCardModule,
-      MatIconModule,
-      MatExpansionModule,
-      MatListModule,
-      MatToolbarModule,
-      MatTableModule,
-      MatBadgeModule,
-      MatSnackBarModule
+    MatSidenavModule,
+    MatGridListModule,
+    MatMenuModule,
+    MatButtonModule,
+    MatCardModule,
+    MatIconModule,
+    MatExpansionModule,
+    MatListModule,
+    MatToolbarModule,
+    MatTableModule,
+    MatBadgeModule,
+    MatSnackBarModule,
+    MatTooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
